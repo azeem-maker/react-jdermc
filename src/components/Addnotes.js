@@ -7,7 +7,7 @@ export default function Addnotes({addTodo}){
   const submit=(e)=>{
     e.preventDefault();
     if(!title || !desc){
-      alert("title and description is mandatory ")
+      alert("title and description is mandatory ");
     }
     else{
       addTodo(title,desc);
